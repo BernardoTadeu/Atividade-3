@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Resumo de HTML e CSS</title>
+        <link rel="stylesheet" type="text/css" href="Atividade 3.css">
+    </head>
+    <body id="body">
+        <fieldset id="Inicio" class="fadeIn">
+        <h1>Resumo de HTML e CSS</h1>
+        <h3>Atividade 3</h3>
+    </fieldset>
+    <br> <br>
+    <fieldset id="Grande" class="fadeIn">
+    <ul class="HTML">
+        <li>HTML</li>
+    </ul>
+   <fieldset class="tudo" class="fadeIn"> <legend><font size="5"> Conceito=</font></legend>
+    <br>
+    HTML é a base/estrutura de um arquivo WEB, sendo utilizado para definir suas características básicas (como: texto; imagem; tabelas; organização básica...). <br></fieldset>
+   <br> <br>
+   <fieldset class="tudo" class="fadeIn"> <legend><font size="5"> Estrutura inicial</font>=  </legend>
+   <br>
+
+    < !DOCTYPE html >
+   <br>
+   < html >
+   <br>
+   < head >
+   <br>
+   < meta charset="utf-8" >
+   <br>
+   < title > A sua escolha < /title >
+   <br>
+   < / head >
+   <br>
+   < body >
+   <br>
+   Aqui o HTML é desenvolvido.
+   <br>
+   < / body >
+   <br>
+   < /html >
+   <br> <br>
+   Você também pode digitar "html:5" e dar ENTER.
+</fieldset>
+   <br> <br>
+   <fieldset class="tudo" class="fadeIn"> <legend> <font size="5">Códigos básicos=</font></legend>
+<br>
+ < br > = Pular uma linha
+ <br> <br>
+< fieldset > TUDO QUE DEVE FICAR DENTRO DO BLOCO DEVE SER FEITO AQUI < /fieldset > = Criar um bloco de divisão
+<br> <br>
+< div > TUDO NESSA "DIVISÃO" DEVE FICAR AQUI< /div > = Divide elemento do HTML e facilita a sua identificação
+<br> <br>
+"required" no final do < input > = Torna tal resposta obrigatória.
+   </fieldset>
+   <br> <br>
+   <fieldset> <legend><font size="5">Adicionando imagens=</font></legend> <br> <br>
+    Adicione imagens (que devem estar na pasta que o HTML está salvo) inserindo este código:
+<br> <br>
+< img scr="NOME DA IMAGEM" width="DEFINE A LARGURA" heigth="DEFINE A ALTURA"> Somente imagem  <
+    <br> <br>
+    <img src="Imagem de teste.jpg" width="400px" heigth="340px">
+    <br> <br> <br>
+< img scr="NOME DA IMAGEM" alt="O QUÊ SERÁ LIDO PELO PROGRAMA PARA CEGOS" > Imagem + Legenda para cegos  <
+   <br> <br>
+<img src="Imagem de teste.jpg" width="400px" heigth="340px" alt="IMAGEM DE UM ASTRONAUTA">
+<br> <br> <br>
+    < figure >
+    <br>
+< img scr="NOME DA IMAGEM" alt="O QUÊ SERÁ LIDO PELO PROGRAMA PARA CEGOS" >
+<br>
+< figcaption >
+<br>
+LEGENDA NORMAL
+<br>
+< / figcaption >
+<br>
+< / figure >
+<br> <br>
+Imagem + Legenda para cegos + Legenda normal  /\
+<br> <br>
+    <figcaption>
+    <img src="Imagem de teste.jpg" width="400px" heigth="340px" alt="IMAGEM DE UM ASTRONAUTA">
+
+        LEGENDA DA IMAGEM DE UM ASTRONAUTA
+    </figcaption>
+</fieldset>
+<br> <br>
+<fieldset class="tudo" class="fadeIn"> <legend><font size="5"> Criando listas=</font></legend>
+<br>
+<fieldset class="tudo">
+<div>
+    Para criar uma lista simples, insira este comando:
+</div>
+<rb></rb>
+< ol >
+<BR>
+    < li > 1° ELEMENTO DA LISTA < /li >
+    <br>
+    < li > 2° ELEMENTO DA LISTA < /li >
+    <br>
+    < li > 3° ELEMENTO DA LISTA < /li >
+    <br>
+    < li > ... < /li >
+    <br>
+< /ol >
+<BR> <BR>
+    <li> 1° ELEMENTO DA LISTA </li>
+    <li> 2° ELEMENTO DA LISTA </li>
+    <li> 3° ELEMENTO DA LISTA </li>
+    <li> ... </li>
+</ol >
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo">
+Para criar uma lista numerada, insira este comando:
+<br> <br> 
+< ul >
+<br>
+< li > 1° ELEMENTO DA LISTA < /li >
+<br>
+< li > 2° ELEMENTO DA LISTA < /li >
+<br>
+< li > 3° ELEMENTO DA LISTA < /li >
+<br>
+< li > ... < /li >
+<br>
+< /ul >
+<br> <br>
+<ul>
+<li> 1° ELEMENTO DA LISTA </li>
+<li> 2° ELEMENTO DA LISTA </li>
+<li> 3° ELEMENTO DA LISTA </li>
+<li> ... </li>
+</ul>
+</fieldset>
+<br><br><br>
+<fieldset class="tudo">
+Em relação ao "< ol >" é possível fazer diferentes tipos de "Listas Simples", como:
+<br> <br>
+< ol type="a" > = Lista na ordem alfabética (letras minúsculas)
+<br>
+< ol type="A" > = Lista na ordem alfabética (letras maiúsculas)
+<br>
+< ol type="i" > = Lista em "i", como: i, ii, iii
+<br>
+< ol type="I" > = Lista em "I", como: I, II, III
+<br> <br> <br>
+Em relação ao "< ul >" é possível fazer diferentes tipos de "Listas Numeradas", como:
+<br>
+<ul type="square">
+<li> < ul type="square" > = Lista com o símbolo de um quadrado</li>
+</ul>
+<ul type="circle">
+<li> < ul type="circle" > = Lista com o símbolo de um círculo</li>
+</ul>
+</fieldset>
+<br> <br>
+<fieldset class="tudo" class="fadeIn"> <legend><font size="5">Fazendo tabelas=</font></legend>
+<br>
+Adicione estes comandos para criar uma tabela:
+<br> <br>
+< table border="TAMANHO DA BORDA DA TABELA" >
+<br>
+    < tr > = Pular uma linha
+    <br>
+        < th > 1° ITEM DO CABEÇALHO < /th > = Texto destacado
+        <br>
+        < th > 2° ITEM DO CABEÇALHO < /th >
+        <br>
+        < th > 3° ITEM DO CABEÇALHO < /th >
+        <br>
+    < /tr >
+    <br>
+    < tr >
+    <br>
+        < td > 1° ITEM DA 1° LINHA DA TABELA < /td > = Texto normal
+        <br>
+        < td > 2° ITEM DA 1° LINHA DA TABELA < /td >
+        <br>
+        < td > 3° ITEM DA 1° LINHA DA TABELA < /td >
+        <br>
+        < td > ... < /td >
+        <br>
+    < /tr >
+    <br>
+    < tr >
+    <br>
+        < td > 1° ITEM DA 2° LINHA DA TABELA < /td >
+        <br>
+        < td > 2° ITEM DA 2° LINHA DA TABELA < /td  >
+        <br>
+        < td > 3° ITEM DA 2° LINHA DA TABELA < /td >
+        <br>
+        < td > ... < /td >
+        <br>
+    < /tr >
+    <br>
+< /table >
+<br><br>
+*Você pode adicionar "infinitas" linhas*
+<br><br>
+<table border="2">
+    <tr>
+        <th> 1° ITEM DO CABEÇALHO </th>
+        <th> 2° ITEM DO CABEÇALHO </th>
+        <th> 3° ITEM DO CABEÇALHO </th>
+    </tr>
+    <tr>
+
+        <td> 1° ITEM DA 1° LINHA DA TABELA </td>
+        <td> 2° ITEM DA 1° LINHA DA TABELA </td>
+        <td> 3° ITEM DA 1° LINHA DA TABELA </td>
+        <td> ... </td>
+    </tr>
+    <tr>
+        <td> 1° ITEM DA 2° LINHA DA TABELA </td>
+        <td> 2° ITEM DA 2° LINHA DA TABELA </td>
+        <td> 3° ITEM DA 2° LINHA DA TABELA </td>
+        <td> ... </td>
+    </tr>
+</table>
+<br>
+</fieldset>
+<br><br>
+<fieldset class="tudo"class="fadeIn"> <legend><font size="5">Fazendo Formulários=</font> </legend>
+<br>
+<fieldset class="tudo"class="fadeIn">
+Para criar um pequeno espaço de resposta, para uma curta pergunta (normalmente), insira este código:
+<br> <br> 
+< label > ESCREVA SUA PERGUNTA AQUI < /label >
+<br> 
+< input type="text" id="DIGITE UM NOME, PARA IDENTIFICAR ESSA PERGUNTA DEPOIS" >
+<br> <br>
+<label>Nome:</label>
+<input type="text">
+</fieldset>
+<br> <br> <BR>
+<fieldset class="tudo" class="fadeIn">
+Para perguntar o email de alguém, insira este código:
+<br>  <BR>
+< label > SOLICITE SEU EMAIL < /label >
+<BR>
+< input type="email" id="DIGITE UM NOME, PARA IDENTIFICAR ESSA PERGUNTA DEPOIS" >
+<br> <br>
+<label>Email:</label>
+<input type="email">
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" class="fadeIn">
+Para que a questão seja de múltipla escolha (no formato de marcar círculos), insira este código:
+<br> <br>
+< label > ESCREVA SUA PERGUNTA < /label >
+<br>
+< br > < br > <br>
+< input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI" > ESCREVA A RESPOSTA DESSA OPÇÃO
+<br>
+< br ><br>
+< input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI" > ESCREVA A RESPOSTA DESSA OPÇÃO
+<br>
+< br ><br>
+< input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI" > ESCREVA A RESPOSTA DESSA OPÇÃO
+<br>
+< br ><br>
+< input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI" > ... 
+<br>
+< br >
+<br><br>
+Para que seja possível marcar apenas uma opção é necessário que todos os "inputs" tenham o mesmo nome. 
+<br>Para que seja possível marcar mais de uma opção é necessário que os "inputs" tenham nomes diferentes.
+<br> <br> <br>
+<label> Avalie o projeto Beira-Linha:</label>
+<br> <br>
+<input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI"> EXCELENTE
+<br>
+<input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI"> ESPETACULAR
+<br>
+<input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI"> MUITO BOM
+<br>
+<input type="radio" name="DIGITE O NOME DESSA OPÇÃO AQUI"> EXCEPCIONAL
+<br>
+</fieldset>
+<br> <br> <br>
+    <fieldset class="tudo" class="fadeIn">
+Para que a questão seja de múltipla escolha (no formato de rolar as opções de resposta), insira este código:
+<br><br>
+< label for="ID ESCOLHIDO" > ESCREVA A PERGUNTA AQUI < /label >
+<br>
+< br > <br>
+< select id="ID ESCOLHIDO" >
+<br>
+    < option selected disabled value="" > EXPLIQUE QUE É NESSE ESPAÇO QUE SE ESCOLHE A RESPOSTA < /option > = Não será possível marcar essa resposta e ela aparecerá mesmo antes de escolher uma poção de fato.
+    
+    <br> < option > 1° OPÇÃO DE RESPOSTA < /option >
+  
+    <br>  < option > 2° OPÇÃO DE RESPOSTA < /option >
+  
+    <br>  < option > 3° OPÇÃO DE RESPOSTA< /option >
+   
+    <br>  < option > ... < /option >
+    
+<br>< /select >
+<br><br>
+<label for="ID ESCOLHIDO"> Qual é a sua série favorita ?</label>
+<select id="ID ESCOLHIDO">
+    <option selected disabled value=""> Escolha a opção aqui </option>
+ <option> Stranger Things </option>
+<option> Sherlock Holmes</option>
+<option> Dark </option>
+<option> Bob Esponja</option>
+</select>
+<br>
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" class="fadeIn">
+    Para criar uma grande área de texto (para a resposta), insira este código:
+    <br> <br>
+    < textarea maxlength=" DEFINE O NÚMERO MÁXIMO DE PALAVRAS" style="width: 28em height: 28em" > < /textarea > = Com o "style", o tamanho do box da área de texto é definido.
+<br> <br>
+<textarea maxlenght="100" style="width:28em height:28em"></textarea>
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" class="fadeIn">
+Para criar o botão de enviar (mas que não vai ter funcionalidade ainda), insira este código:
+<br> <br>
+< button type="submit"> Enviar < /button >
+<br>
+</fieldset>
+</fieldset>
+</fieldset>
+<br> <br> <br> <br>
+<fieldset class="fadeIn">
+    <ul class="HTML">
+        <li>CSS</li>
+    </ul>
+    <br>
+    <fieldset class="tudo">
+        Conceito:
+        <br> <br>
+        CSS é a parte do arquivo WEB que define suas características visuais, assim definindo elementos estéticos do site
+    </fieldset>
+    <br> <br> <br>
+<fieldset class="tudo">
+Para vincular um arquivo CSS a um HTML, inisra este código no < head >:
+<br> <br>
+< link rel="stylesheet" type="text/css" href="NOME DO ARQUIVO CSS" >
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo"class="fadeIn">
+    Conhecimentos básicos:
+    <br> <br>
+    Usa-se " . " antes de CLASSes e " # " antes de ID.
+    <br> <br>
+O símbolo " * " é utilizado para se referir a toda página WEB.
+<br> <br>
+Para fazer anotações que não apareceram no texto, usa-se "/* */".
+<br>
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" id="Cor" class="fadeIn">
+    Para definir a cor de determinado texto, insira este código (isso no arquivo de CSS):
+    <br> <br>
+#ESCREVA O ID DO "BLOCO/DIVISÃO" QUE O TEXTO ESTÁ INSERIDO {
+    <br>
+color: ESCREVA O NOME DA COR DESEJADA;
+<br>
+}
+</fieldset>
+<br> <br> <br>
+<fieldset  class="tudo" id="Fundo" class="fadeIn">
+    Para definir a cor do fundo de certa divisão ou de todo site, insira este código:
+    <br> <br>
+    #ESCREVA O ID DO "BLOCO/DIVISÃO" QUE O FUNDO SERÁ ALTERADO {
+        <br>
+        background-color: ESCREVA O NOME DA COR DESEJADA;
+        <br> 
+    }
+    <br> <br>
+Para criar esse efeito de transição da cor, insira este código no CSS:
+<br> <br>
+#ID DO FIELDSET{
+    background-image: linear-gradient(to bottom,  #37fff5, #0ebbff);
+}
+<br>
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" id="Borda" class="fadeIn">
+    Para alterar a ingremidade das pontas de uma divisão/fieldset, insira esta código:
+    <br> <br>
+    #ESCREVA O ID DO "FIELDSET/DIVISÃO" A SER ALTERADO {
+        <br>
+        border-radius: DIGITE O NÚMERO DE PIXELS QUE A INCLINAÇÃO TERÁ (COMO 15 px); 
+        <br>
+    }
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" class="fadeIn">
+    Para alterar o tamanho da borda de um bloco/fieldset, insira este código:
+    <br> <br>
+    #ESCREVA O ID DO "FIELDSET/DIVISÃO" A SER ALTERADO {
+        <br>
+        border-width: TAMANHO DA BORDA (como 15px);
+        <br>
+    }
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" class="fadeIn">
+    Para alterar a fonte do texto, insira este código:
+    <br> <br>
+    .ESCREVA O ID DO "BLOCO/DIVISÃO" EM QUE O TEXTO ESTÁ INSERIDO{
+        <br>
+        <div id="Fonte">
+        font-family: ESCREVA O NOME DA FONTE (Georgia, por exemplo);
+    </div>
+    }
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" class="fadeIn">
+    Para alterar o tamanho do texto, insira este código:
+    <br> <br>
+    .ESCREVA O ID DO "BLOCO/DIVISÃO" EM QUE O TEXTO ESTÁ INSERIDO{
+        <br>
+    <div id="Tamanho">
+Font-size: TAMANHO DA LETRA (como: 10px;);
+</div>
+    }
+</fieldset>
+<BR><BR><BR>
+<fieldset class="tudo" class="fadeIn">
+    Para fazer com que ao carregar o site, os elementos apareçam lentamente, insira este código (TODOS OS ELEMENTOS COM ESSE EFEITO DEVEM TER A class="fadeIn"):
+<BR><BR>.fadeIn {
+    <BR>
+    animation: fadeIn 2s (por exemplo) linear
+    <BR>
+}
+<BR>
+@keyframe fadeIn {
+    <BR>
+    from { opacity 0;}
+    <BR>
+    to {opacity 1;}
+    <BR>
+};
+<BR>
+</fieldset>
+<br> <br> <br>
+<fieldset class="tudo" class="fadeIn">
+    Para alterar características de um botão (por exemplo, mas também serve em outros, como imagens), insira este código:
+    <BR>  <BR> button (SE FOR UM BOTÃO) {
+        <BR>
+        margin-left:570px;
+        <BR>
+        padding: 8px;
+        <BR>
+        color:black;
+        <BR>
+        background-color: yellow;
+        <BR>
+        }
+        <BR>
+        button:hover{
+            <BR>
+        margin-left:555px;
+        <BR>
+        padding: 20px;
+        <BR>
+        color:white;
+        <BR>
+        background-color: rgb(0, 4, 255);
+        <BR>
+        border-radius: 18px;
+        <BR>
+        transition: 1s;
+        <BR>
+        }
+        <BR>
+            <br>
+            <br> <br>
+<button>Teste</button>
+</fieldset>
+<br> <br> <br>
+<div align="center">
+<img id="Bernardo" src="Bernardo.jpg" width="300px" border-radius="10px">
+</div>
+<div id="Obrigado">
+Bernardo Tadeu Alves Carvalho 
+<br> <br> <BR>
+OBRIGADO
+</div>
+<br> <br>
+</fieldset>
+</body>
+</html>
